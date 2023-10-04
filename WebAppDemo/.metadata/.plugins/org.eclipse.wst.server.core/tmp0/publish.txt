@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Wed Aug 23 13:58:46 IST 2023
+org.eclipse.jst.jee.server\:LaptopAssignment=D\:\\apache-tomcat-9.0.78-windows-x64\\apache-tomcat-9.0.78\\wtpwebapps\\LaptopAssignment
+org.eclipse.jst.jee.server\:FirstWebApp=D\:\\apache-tomcat-9.0.78-windows-x64\\apache-tomcat-9.0.78\\wtpwebapps\\FirstWebApp
+org.eclipse.jst.jee.server\:Assignment1=D\:\\apache-tomcat-9.0.78-windows-x64\\apache-tomcat-9.0.78\\wtpwebapps\\Assignment1

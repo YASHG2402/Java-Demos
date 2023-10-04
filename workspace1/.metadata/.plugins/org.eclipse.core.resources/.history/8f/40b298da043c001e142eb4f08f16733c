@@ -1,0 +1,10 @@
+package in.mindcraft.EmployeeDemo;
+
+import java.util.*;
+
+public class Employee {
+	private int empid;
+	private String name;
+	
+	private List<Address> list = new ArrayList<Address>();
+}

@@ -1,0 +1,33 @@
+
+Aug 22, 2023 10:20:24.246 NEW SESSION
+Aug 22, 2023 10:20:24.246 [13932:16180:0822/102024.241:ERROR:device_event_log_impl.cc(222)] [10:20:24.220] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Aug 22, 2023 13:51:35.749 [13932:21200:0822/135135.741:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for cookie-sync.api.soundcast.fm failed:
+Aug 22, 2023 13:51:35.763 ----- Certificate i=0 (CN=*.api.soundcast.fm) -----
+Aug 22, 2023 13:51:35.764 ERROR: Time is after notAfter
+Aug 22, 2023 13:51:35.765 
+Aug 22, 2023 13:51:35.765 
+
+Aug 29, 2023 14:40:06.414 NEW SESSION
+Aug 29, 2023 14:40:06.414 [36232:41880:0829/144006.410:ERROR:device_event_log_impl.cc(222)] [14:40:06.410] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Aug 29, 2023 16:10:29.218 [36232:41880:0829/161029.215:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+Aug 29, 2023 16:13:53.453 [36232:31220:0829/161353.452:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c11.gcp.gvt2.com failed:
+Aug 29, 2023 16:13:53.454 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 29, 2023 16:13:53.455 ERROR: Time is after notAfter
+Aug 29, 2023 16:13:53.456 
+Aug 29, 2023 16:13:53.456 
+Aug 29, 2023 16:15:13.275 [36232:31220:0829/161513.273:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c39.gcp.gvt2.com failed:
+Aug 29, 2023 16:15:13.277 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 29, 2023 16:15:13.278 ERROR: Time is after notAfter
+Aug 29, 2023 16:15:13.279 
+Aug 29, 2023 16:15:13.281 
+Aug 29, 2023 16:19:34.550 [36232:31220:0829/161934.549:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+Aug 29, 2023 16:19:34.552 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 29, 2023 16:19:34.552 ERROR: Time is after notAfter
+Aug 29, 2023 16:19:34.554 
+Aug 29, 2023 16:19:34.554 
+Aug 29, 2023 16:21:29.480 [36232:31220:0829/162129.479:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c15.gcp.gvt2.com failed:
+Aug 29, 2023 16:21:29.481 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+Aug 29, 2023 16:21:29.482 ERROR: Time is after notAfter
+Aug 29, 2023 16:21:29.483 
+Aug 29, 2023 16:21:29.483 
+Aug 29, 2023 16:31:21.212 [36232:41880:0829/163121.211:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost

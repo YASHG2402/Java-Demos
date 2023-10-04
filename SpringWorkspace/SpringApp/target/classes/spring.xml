@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id="lap" class="in.mindcraft.SpringApp.Laptop">
+	<property name="Lid" value="1001"></property>   <!-- Setter Injection -->
+	<property name="name" value="HP"></property>
+	<property name="cost" value="700000"></property>
+</bean>
+
+<bean id="l1" class="in.mindcraft.SpringApp.Laptop">
+	<constructor-arg value="2001"></constructor-arg> <!-- Construtor Injection -->
+	<constructor-arg value="Acer"></constructor-arg>
+	<constructor-arg value="99000"></constructor-arg>
+</bean>
+
+</beans>

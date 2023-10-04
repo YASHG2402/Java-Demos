@@ -1,0 +1,63 @@
+import java.sql.*;
+import java.util.Scanner;
+public class Tester {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter acc_num, acc_name and acc_balance");
+		int acc_num=sc.nextInt();
+		String acc_name=sc.next();
+		double acc_balance=sc.nextDouble();
+		
+		
+		Connection conn = null;
+		try {
+			conn = DriverManager.getConnection("jdbc:mysql://localhost/bank_details","root","Pass@12345");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		PreparedStatement pstmt = null;
+		try {
+			pstmt = conn.prepareStatement("insert into Account_Details values(?,?,?)");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} // to get input from user
+		try {
+			pstmt.setInt(1, acc_num);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			pstmt.setString(2, acc_name);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			pstmt.setDouble(3, acc_balance);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		boolean status = false;
+		try {
+			status = pstmt.execute();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		if(!status)
+			System.out.println("Row inserted successfully");
+		try {
+			conn.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+
+}
